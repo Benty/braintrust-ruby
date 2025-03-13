@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email = "info-test@braintrustdata.com"
   s.files = Dir["lib/**/*.rb"]
   s.extra_rdoc_files = ["README.md"]
-  s.required_ruby_version = ">= 3.0.0"
+  s.required_ruby_version = ">= 2.7.0"
   s.add_dependency "connection_pool"
   s.homepage = "https://rubydoc.info/github/braintrustdata/braintrust-ruby"
   s.metadata["homepage_uri"] = s.homepage
